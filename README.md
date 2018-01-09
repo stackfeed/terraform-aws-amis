@@ -2,11 +2,7 @@
 
 Terraform module which helps programmatically to find up to date image of particular OS and release.
 
-AMIs:
-| Platform | List of available releases  |
-|--|--|
-| Debian  | stretch  |
-| Ubuntu  | xenial |
+AMIs available:
 
  - Debian: stretch
  - Ubuntu: xenial
@@ -43,7 +39,7 @@ module "ec2_cluster" {
 
 # Authors
 
-* Denis Baryshev <dennybaa@gmail.com>
+* Denis Baryshev (<dennybaa@gmail.com>)
 
 # License
 
