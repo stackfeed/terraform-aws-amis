@@ -3,5 +3,5 @@ output "ami_id" {
 }
 
 output "admin_user" {
-    value = "${map_platform_admin[var.platform]}"
+    value = "${var.map_platform_admin[var.platform]}"
 }
